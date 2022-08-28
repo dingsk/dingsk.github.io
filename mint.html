@@ -40,7 +40,7 @@
 			<div class="header_in">
 			
 				<div class="logo">
-					<a href="index.html"><img src="img/logo.png" alt=""></a>
+					<a href="index.html"><img src="img/logo-text2.png" alt="" style="height: 36px"></a>
 				</div>
 				
 				<div class="rtBtn">
@@ -49,9 +49,9 @@
 						<span class="text" style="font-size: 12px;">Connect Wallet</span>
 					</a>
 
-					<a href="javascript:void(0);" class="neoh_fn_button" style="padding-left: 120px;text-transform: none;">
-						<span class="icon"><span class="fn__svg" style="width:auto;line-height: 22px;font-size: 12px;">1 RopstenETH</span></span>
-						<span target="_blank" href='' class="text" alt="" style="color: inherit;">0x506c...0eec</span>
+					<a target="_blank" href='' class="neoh_fn_button" style="padding-left: 60px;text-transform: none;">
+						<span class="icon"><span class="fn__svg" style="width:auto;line-height: 22px;font-size: 12px;">0 GR</span></span>
+						<span class="text" alt="" style="color: inherit;">...</span>
 					</a>
 				</div>
 				
@@ -214,7 +214,7 @@
 		'0xE4345a10d0A9033255176A7A571CdEdeA8812aA8'
 	],
 	goldrushAbi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"approved","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"operator","type":"address"},{"indexed":false,"internalType":"bool","name":"approved","type":"bool"}],"name":"ApprovalForAll","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[],"name":"MINT_PRICE","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"WHITE_MINT_PRICE","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"approve","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"freeClaimed","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"bytes32[]","name":"_proof","type":"bytes32[]"}],"name":"freeMint","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"freeMintRoot","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"getApproved","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"operator","type":"address"}],"name":"isApprovedForAll","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"bytes32[]","name":"_proof","type":"bytes32[]"}],"name":"mint","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"ownerOf","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"paused","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"},{"internalType":"bytes","name":"_data","type":"bytes"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"operator","type":"address"},{"internalType":"bool","name":"approved","type":"bool"}],"name":"setApprovalForAll","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"_root","type":"bytes32"}],"name":"setFreeMintRoot","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"setPaused","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"_root","type":"bytes32"}],"name":"setWhiteListRoot","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes4","name":"interfaceId","type":"bytes4"}],"name":"supportsInterface","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenOfOwnerByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"tokenURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"transferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"unpaused","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"whiteListClaimed","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"whiteListRoot","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"}],
-    goldrushAddress = "0x43031e615496Ef54Dc7D6e46580ecac4b330acC2",
+    goldrushAddress = "0x13f72e7a7BF723504e755c60f24AD96B0fbFD41A",
 	merkleTree = function(leaves, address) {
 		let tree = new MerkleTree(leaves, keccak256, {sortLeaves:true})
         let root = tree.getRoot().toString('hex')
@@ -244,15 +244,18 @@
 		if (!accounts.length) {
 			removeListener()
 			window.curWallet = undefined
+			sessionStorage.removeItem('account')
 			$(".rtBtn .neoh_fn_button:first").addClass('active')
 			$(".rtBtn .neoh_fn_button:last").removeClass('active')
+			$("#about .buttons .neoh_fn_button:first .text").text("mint(coming soon)")
 			return
 		}
 		let address = accounts[0]
-		$(".rtBtn .neoh_fn_button:first").removeClass('active')
-		$(".rtBtn .neoh_fn_button:last").addClass('active')
 		window.curWallet.address = address
 		window.curWallet.proofAndValue = await getProofAndValue(address)
+		$("#about .buttons .neoh_fn_button:first .text").text("mint("+(window.curWallet.proofAndValue[1]/10**18) + " ETH)")
+		$(".rtBtn .neoh_fn_button:first").removeClass('active')
+		$(".rtBtn .neoh_fn_button:last").addClass('active')
 		handleChainChanged()
 	},
 	handleDisconnect = function(e) {
@@ -263,10 +266,16 @@
 		window.curWallet.chainId = chainId
 		let chain = chainConfig[chainId]
 		let address = window.curWallet.address
-		let coin = (await window.web3.eth.getBalance(address)) / 10**chain?.decimals
+		let coin = 0
+		try {
+			coin = await window.goldRush.methods.balanceOf(address).call()
+		} catch (error) {
+			coin = 0
+		}
 		window.curWallet.coin = coin
-		$(".rtBtn .neoh_fn_button:last .text").text(address.slice(0,6)+'...'+address.slice(-4)).attr('href', chain?.lookAddr + address)
-		$(".rtBtn .neoh_fn_button:last").css({'padding-left':43+$(".rtBtn .neoh_fn_button:last .fn__svg").text( Number(Number(coin).toFixed(3)) + ' ' + chain?.symbol ).width()})
+		$(".rtBtn .neoh_fn_button:last .text").text(address.slice(0,6)+'...'+address.slice(-4))
+		$(".rtBtn .neoh_fn_button:last").attr('href', chain?.lookAddr + address)
+		$(".rtBtn .neoh_fn_button:last").css({'padding-left':43+$(".rtBtn .neoh_fn_button:last .fn__svg").text( coin + ' GR').width()})
 	},
 	handleNetworkChanged = function(res) {
 	},
@@ -327,6 +336,9 @@
 		// $(".rtBtn .neoh_fn_button:last").click(function() {
 		// })
 		$("#about .buttons .neoh_fn_button:first").click(function() {
+			if (!window.curWallet?.address) {
+				return metamask.func()
+			}
         	// mint nft
 			let address = window.curWallet.address
 			let [proof, value] = window.curWallet.proofAndValue
